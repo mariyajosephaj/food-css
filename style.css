@@ -1,0 +1,201 @@
+*{
+    font-family: "Rakkas", serif;
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    background-color: black;
+    border-radius: 10px;
+    height: 120px;
+    margin-right: 100px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+.links:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home-contents{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: black;
+}
+#lname{
+    color: orange;
+}
+#userdetails{
+    line-height: 1.5;
+    color: black;
+    font-size: medium;
+}
+#food-bg{
+    width: 100%;
+     height: 500px; 
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left:25%;
+    transform: translate(-50%, -50%);
+  }
+   .foodmenu{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  } 
+  /* #foods{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+  } */
+  .food-items{
+    width: 400px;
+    height: 300px;
+    /* background-color: black; */
+    /* border :solid 1px; */
+    /* border-radius: 10px; */
+    margin-top: 60px;
+    transition: 0.5s;
+
+  }
+  .f-img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  .food-items:hover {
+    transform: scale(1.2);
+    /* background: black; */
+    z-index: 2;
+}
+#dishes{
+      text-align: center;
+      
+}
+.foodmenu h2{
+    color: black;
+
+}
+.f-head{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+#Services{
+    width: 100%;
+    margin-top: 1500px;
+   
+    
+}
+.service-flex{
+    width: 100%;
+    display: flex;
+}
+#ser-content{
+    width: 100%;
+}
+#ser-head{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+#ser-content{
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 70px;
+}
+#ser-img{
+    width: 50%;
+}
+#ser-img img{
+    width: 600px;
+}
+#contact
+{
+    width: 100%;
+    background-color: black;
+    height: 250px;
+    margin-top: 2500px;
+}
+.div-contact{
+    width: 100%;
+    display: flex;
+    color: white;
+}
+.about{
+    width: 25%;
+}
+.about p{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.about h2{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.follow-us{
+    width: 25%;
+}
+.follow-us p{
+    margin-top: 20px;
+}
+.follow-us h2{
+    margin-top: 10px; 
+}
+.address{
+    width: 25%;
+}
+.address p{
+    margin-top: 20px;
+}
+.address h2{
+    margin-top: 10px;
+}
+.cotact-us{
+    width: 25%;
+}
+.cotact-us p{
+    margin-top: 20px;
+}
+.cotact-us h2{
+    margin-top: 10px;
+}
